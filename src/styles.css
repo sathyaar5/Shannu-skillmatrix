@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,500&display=swap');
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../src/Icons/background.png');
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.sidebar-header {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-menu li svg {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.content-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skillMatrix-logo {
+  width: 100%;
+  max-width: 250px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.dashboard-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; /* Space between each link */
+  position: relative;
+}
+
+.links img {
+  width: 30px; /* Adjust as needed */
+  margin-right: 15px;
+}
+
+.links h3 {
+  margin: 0;
+  font-size: 18px; /* Adjust as needed */
+  font-weight: normal;
+}
+
+.content-item {
+    padding: 8px 16px;
+  }
+  
+  .draft-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .draft-info {
+    display: flex;
+    align-items: center;
+    width: 70%; /* Adjust width as needed */
+  }
+  
+  .detail {
+    margin-right: 16px; /* Adjust spacing between details */
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .nested-links {
+    position: absolute; /* Position the nested menu relative to its closest positioned ancestor */
+    height: 2vh;
+    left: 340px; /* Position it to the right of the "Settings" option */
+    background-color: #fff;
+    padding: 10px;
+    height: 2vh;
+  }
+  
+  .icon {
+    margin-right: 10px; /* Add space between the icon and text */
+  }
+  
+  .arrow {
+    margin-left: auto; /* Push the '>' symbol to the right */
+  }
+
+  .add-skills-to-skill-data {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 0;
+  }
+  
+  .frame-parent {
+    padding: 0;
+    gap: 0;
+  }
+  
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 14.44px;
+    background-color: rgba(255, 255, 255, 0.35);
+    overflow: hidden;
+    padding: 36.1px;
+    gap: 50px;
+    z-index: 1;
+    font-size: 30px;
+  }
+  
+  .add-skills-to {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  .frame-group {
+    gap: 40px;
+    font-size: 18px;
+    color: #494949;
+  }
+  
+  .frame-container,
+  .frame-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  
+  .frame-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 36.1px;
+  }
+  
+  .frame-container {
+    flex-direction: column;
+    gap: 36px;
+  }
+  
+  .or {
+    flex: 1;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .or-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .upload-excel-sheet {
+    flex: 1;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .upload-excel-sheet-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .upload {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 48px;
+  }
+  
+  .add-circle-icon {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .upload-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 15.1px 59px;
+    background-color: #1b1b1b;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  
+  .inside,
+  .upload-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 12.2px 50px 12.1px;
+    background-color: #1b1b1b;
+    border-radius: 21.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7.2px;
+  }
+  
+  .inside:hover,
+  .upload-parent:hover {
+    background-color: #4f4f4f;
+  }
+  
+  .inside-wrapper {
+    padding: 0;
+  }
+  
+  .inside-wrapper button {
+    padding: 12.2px 50px 12.1px;
+    background-color: #1b1b1b;
+    border-radius: 21.67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7.2px;
+  }
+  
+  .inside-wrapper button:hover {
+    background-color: #4f4f4f;
+  }
+  
+  @media screen and (max-width: 825px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .add-skills-to {
+      font-size: 24px;
+    }
+  
+  
+    .add-skills-to-skill-data {
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media screen and (max-width: 675px) {
+    .sidebar {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+  
+    .frame-container,
+    .frame-div {
+      gap: 18px;
+    }
+  
+    .frame-group {
+      gap: 20px;
+    }
+  
+    .table {
+      gap: 25px;
+      padding-top: 23px;
+      padding-bottom: 33px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .add-skills-to {
+      font-size: 18px;
+    }
+  }
+
+  /* styles.css */
+.upload-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.upload-modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.upload-modal-content {
+  border: 2px dashed #007bff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.upload-modal-button {
+  margin-top: 1rem;
+}
+
+.upload-modal-info {
+  margin-top: 1rem;
+}
+
+.add-skills-container {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-skills-container .MuiDialogTitle-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.add-skills-container .MuiDialogContent-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-skills-container .MuiDialogActions-root {
+  display: flex;
+  justify-content: center;
+}
+/* General Styling */
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.add-skills-to-skill-data {
+  position: relative;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.frame-parent {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-skills-to {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.form-field label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #666;
+  text-align: left;
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.upload-section label {
+  font-weight: 600;
+  color: #333;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button img {
+  margin-left: 10px;
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.add-skills-to {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-container,
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frame-div {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36.1px;
+}
+.frame-container {
+  flex-direction: column;
+  gap: 36px;
+}
+.or {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.or-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.upload-excel-sheet {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.upload-excel-sheet-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.upload {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.add-circle-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.upload-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 15.1px 59px;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+.inside:hover,
+.upload-parent:hover {
+  background-color: #4f4f4f;
+}
+.frame-group,
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent1 {
+  gap: 15px;
+  flex-shrink: 0;
+  color: #000;
+}
+.frame-group {
+  gap: 40px;
+  font-size: 18px;
+  color: #494949;
+}
+.button {
+  position: relative;
+  font-size: 15.9px;
+  font-weight: 600;
+  font-family: Urbanist;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 37px;
+}
+.arrow-down-icon {
+  height: 17.3px;
+  width: 17.3px;
+  position: relative;
+  display: none;
+}
+.frame-parent,
+.inside,
+.inside-wrapper,
+.table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inside {
+  cursor: pointer;
+  border: 0;
+  padding: 12.2px 50px 12.1px;
+  background-color: #1b1b1b;
+  border-radius: 21.67px;
+  justify-content: center;
+  gap: 7.2px;
+}
+.frame-parent,
+.inside-wrapper,
+.table {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.frame-parent,
+.table {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.table {
+  border-radius: 14.44px;
+  background-color: rgba(255, 255, 255, 0.35);
+  overflow: hidden;
+  padding: 36.1px 36.1px 50.6px;
+  box-sizing: border-box;
+  gap: 50px;
+  z-index: 1;
+  font-size: 30px;
+}
+.frame-parent {
+  gap: 20px;
+}
+
+
+.add-skills-to-skill-data {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 20px 0 0;
+  gap: 19.9px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 16px;
+  color: #1b1b1b;
+}
+@media screen and (max-width: 825px) {
+  .sidebar {
+    display: none;
+  }
+  .add-skills-to {
+    font-size: 24px;
+  }
+  
+  .add-skills-to-skill-data {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .sidebar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .frame-container,
+  .frame-div {
+    gap: 18px;
+  }
+  .frame-group {
+    gap: 20px;
+  }
+  .table {
+    gap: 25px;
+    padding-top: 23px;
+    padding-bottom: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .add-skills-to {
+    font-size: 18px;
+  }
+}
+
+.settings-wrapper{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+

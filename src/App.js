@@ -1,31 +1,10 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { FaHome, FaCog, FaListAlt, FaEnvelope, FaQuestionCircle } from 'react-icons/fa';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import MainContent from './MainContent';
-
-const Sidebar = ({ setActiveSection }) => {
-  const handleSectionClick = (section) => {
-    setActiveSection(section);
-  };
-
-  return (
-    <div className="sidebar">
-      <div className="sidebar-header">
-        Skillmatrix
-      </div>
-      <ul className="sidebar-menu">
-        <li onClick={() => handleSectionClick("dashboard")}><FaHome /> Dashboard</li>
-        <li onClick={() => handleSectionClick("manageSkills")}><FaCog /> Manage Skills</li>
-        <li onClick={() => handleSectionClick("submissions")}><FaListAlt /> Submissions</li>
-        <li onClick={() => handleSectionClick("drafts")}><FaListAlt /> Drafts</li>
-        <li onClick={() => handleSectionClick("notifications")}><FaEnvelope /> Notifications & Support</li>
-        <li onClick={() => handleSectionClick("help")}><FaQuestionCircle /> Help & Support</li>
-        <li onClick={() => handleSectionClick("settings")}><FaCog /> Settings</li>
-      </ul>
-    </div>
-  );
-};
+import '../src/styles.css';
+import MainContent from '../src/components/MainContent';
+import Sidebar from '../src/components/Sidebar';
+import AddSkillsToSkillData from '../src/components/AddSkillsToSkillData';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("dashboard");
@@ -56,7 +35,10 @@ const App = () => {
     <Router>
       <div className="app">
         <Sidebar setActiveSection={setActiveSection} />
-        {activeSection === "drafts" && <MainContent drafts={drafts} onDeleteDraft={handleDeleteDraft} />}
+        <div className="main-content">
+          {activeSection === "drafts" && <MainContent drafts={drafts} onDeleteDraft={handleDeleteDraft} />}
+          {activeSection === "addSkills" && <AddSkillsToSkillData />}
+        </div>
       </div>
     </Router>
   );
