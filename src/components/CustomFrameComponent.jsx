@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-
+import './CustomFrameComponent.css';
 const CustomFrameComponent = ({
   topicProduct,
   enterTopicProductPlacehol,

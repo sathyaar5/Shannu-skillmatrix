@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import './AddSkillsToSkillDataUpload.css';
 
 const AddSkillsToSillDataUpload = ({ onClose }) => {
   const fileInputRef = useRef(null);

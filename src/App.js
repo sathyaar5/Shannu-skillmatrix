@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import '../src/styles.css';
 import MainContent from '../src/components/MainContent';
 import Sidebar from '../src/components/Sidebar';
 import AddSkillsToSkillData from '../src/components/AddSkillsToSkillData';

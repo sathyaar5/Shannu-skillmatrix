@@ -1,0 +1,209 @@
+.add-skills-to-skill-data-upload {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  height: 100;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Urbanist;
+}
+
+.frame-parent7 {
+  position: absolute;
+  top: calc(50% - 260px);
+  left: calc(50% - 437px);
+  border-radius: 14.15px;
+  background-color: #fff;
+  width: 873.7px;
+  height: 520px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35.4px;
+  box-sizing: border-box;
+  font-size: 21.2px;
+}
+
+.upload-excel-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.upload-excel {
+  width: 832px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.frame-parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14.1px;
+  font-size: 12.7px;
+  color: #494949;
+}
+
+.cloud-upload-fill1-wght400-gra-parent,
+.frame-parent9,
+.frame-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.frame-wrapper {
+  width: 528.5px;
+  border-radius: 21.22px;
+  background-color: #eff7ff;
+  border: 2.1px dashed #2276c4;
+  box-sizing: border-box;
+  height: 227.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 7.1px;
+  color: #000;
+}
+
+.cloud-upload-fill1-wght400-gra-parent {
+  gap: 10.6px;
+}
+
+.cloud-upload-fill1-wght400-gra-icon {
+  width: 49.5px;
+  position: relative;
+  height: 49.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+
+.cloud-upload-fill1-wght400-gra-icon {
+  width: 49.5px;
+  position: relative;
+  height: 49.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-parent9 {
+  gap: 5px;
+}
+
+.choose-file-wrapper {
+  border-radius: 21.22px;
+  border: 1px solid #154470;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7.1px 21.2px;
+  color: #154470;
+}
+
+.choose-file {
+  position: relative;
+  font-weight: 600;
+}
+
+.drag-and-drop-to-upload-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.drag-and-drop {
+  position: relative;
+  font-weight: 600;
+}
+.frame-wrapper1,
+.maximum-file-size-30-mb-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.frame-wrapper1 {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.maximum-file-size {
+  position: relative;
+  font-weight: 600;
+}
+
+.your-file-should-container {
+  position: relative;
+  font-weight: 600;
+}
+
+.excel {
+  color: #1b1b1b;
+}
+
+.inside-group,
+.inside4 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.inside-group {
+  align-items: flex-start;
+  gap: 21.2px;
+  font-size: 14.1px;
+  color: #202020;
+}
+
+.inside3 {
+  width: 113.2px;
+  border-radius: 21.22px;
+  border: 1.4px solid #1b1b1b;
+  box-sizing: border-box;
+  height: 35.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7.1px;
+  gap: 7.1px;
+}
+
+
+.button3 {
+  position: relative;
+  font-weight: 600;
+}
+
+.arrow-down-icon3 {
+  width: 17px;
+  position: relative;
+  height: 17px;
+  display: none;
+}
+
+.button4 {
+  position: relative;
+  font-weight: 600;
+}
+
+.arrow-down-icon4 {
+  width: 17px;
+  position: relative;
+  height: 17px;
+  display: none;
+}

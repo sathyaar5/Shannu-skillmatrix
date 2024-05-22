@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import CustomFrameComponent from "./CustomFrameComponent"; // Assuming FrameComponent is imported from a different file
 import AddSkillsToSillDataUpload from "./AddSkillsToSkillDataUpload";
+import './AddSkillsToSkillData.css';
 
 const AddSkillsToSkillData = () => {
   const fileInputRef = useRef(null);

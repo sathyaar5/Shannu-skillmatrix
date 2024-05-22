@@ -1,0 +1,61 @@
+.frame-parent10 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.enter-topicproduct-wrapper {
+  align-self: stretch;
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 14px 15px 14.5px;
+}
+
+
+.topicproduct {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.enter-topicproduct-wrapper {
+  align-self: stretch;
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 14px 15px 14.5px;
+}
+
+.enter-topicproduct {
+  width: 418.9px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: Urbanist;
+  font-size: 15px;
+  background-color: transparent;
+  height: 18px;
+  position: relative;
+  color: #676767;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+
+.frame-parent10 {
+  width: 532px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10.8px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Urbanist;
+}
